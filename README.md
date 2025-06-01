@@ -6,6 +6,15 @@ uv --version
 
 если нет: то в cmd
 pip install uv
+Короткий путь создания проекта с UV
+PS D:\GitHubTest1> uv init
+Initialized project `githubtest1`
+PS D:\GitHubTest1> uv run main.py
+Using CPython 3.11.9 interpreter at: C:\PythonVersion\Python3119\python.exe
+Creating virtual environment at: .venv
+Hello from githubtest1!
+PS D:\GitHubTest1> .venv\Scripts\activate
+(githubtest1) PS D:\GitHubTest1>
 
 🔹 Создаем виртуальное окружение
 В корне проекта выполнить:
